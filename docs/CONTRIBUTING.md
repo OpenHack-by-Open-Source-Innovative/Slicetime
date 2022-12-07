@@ -1,1 +1,0 @@
-# Welcome to contribution gudie for slicetime
