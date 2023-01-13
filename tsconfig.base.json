@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@slicetime/models": ["libs/models/src/index.ts"]
+      "@slicetime/models": ["libs/models/src"]
     }
   },
   "exclude": ["node_modules", "tmp"]
