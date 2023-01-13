@@ -1,8 +1,7 @@
-import { Common } from "./common";
+import { Common } from './common';
 
 export interface User extends Common {
-  id : number;
+  id: number;
   userName: string;
   email: string;
-
 }
