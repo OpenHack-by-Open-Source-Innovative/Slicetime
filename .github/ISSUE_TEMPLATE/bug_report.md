@@ -2,10 +2,11 @@
 name: Bug report
 about: Create a report to help us improve
 title: ''
-labels: 'bug'
+labels: bug
 assignees: ''
 
 ---
+
 **Describe the bug**
 A clear and concise description of what the bug is.
 <!-- describe it here  -->
@@ -33,4 +34,3 @@ and remove all the bulleted list elements that are not relevant for this issue. 
 * Browser name and version:
 
 ---
-
