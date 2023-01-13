@@ -1,6 +1,6 @@
-import { Common } from "./common";
+import { Common } from './common';
 
 export interface Task extends Common {
-    id : Number,
-    name : String
+  id: Number;
+  name: String;
 }
