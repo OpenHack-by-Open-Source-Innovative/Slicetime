@@ -5,15 +5,24 @@
   "scripts": {
     "start": "nx serve",
     "build": "nx build",
-    "test": "nx test"
+    "test": "nx test",
+    "nx": "nx"
   },
   "private": true,
   "devDependencies": {
+    "@angular-devkit/build-angular": "~15.1.0",
+    "@angular-eslint/eslint-plugin": "~15.0.0",
+    "@angular-eslint/eslint-plugin-template": "~15.0.0",
+    "@angular-eslint/template-parser": "~15.0.0",
+    "@angular/cli": "~15.1.0",
+    "@angular/compiler-cli": "~15.1.0",
+    "@angular/language-service": "~15.1.0",
     "@babel/preset-react": "^7.14.5",
-    "@nrwl/cypress": "15.3.0",
+    "@nrwl/angular": "^15.5.0",
+    "@nrwl/cypress": "15.5.0",
     "@nrwl/eslint-plugin-nx": "15.3.0",
     "@nrwl/express": "15.3.0",
-    "@nrwl/jest": "15.3.0",
+    "@nrwl/jest": "15.5.0",
     "@nrwl/linter": "15.3.0",
     "@nrwl/node": "15.3.0",
     "@nrwl/nx-cloud": "latest",
@@ -26,7 +35,7 @@
     "@testing-library/react": "13.4.0",
     "@types/express": "4.17.13",
     "@types/jest": "28.1.1",
-    "@types/node": "18.7.1",
+    "@types/node": "16.11.7",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.9",
     "@types/react-router-dom": "5.3.3",
@@ -36,7 +45,7 @@
     "@vitest/coverage-c8": "~0.25.3",
     "@vitest/ui": "^0.9.3",
     "babel-jest": "28.1.1",
-    "cypress": "^11.0.0",
+    "cypress": "^12.2.0",
     "eslint": "~8.15.0",
     "eslint-config-prettier": "8.1.0",
     "eslint-plugin-cypress": "^2.10.3",
@@ -46,6 +55,7 @@
     "eslint-plugin-react-hooks": "4.6.0",
     "jest": "28.1.1",
     "jest-environment-jsdom": "28.1.1",
+    "jest-preset-angular": "~12.2.3",
     "jsdom": "~20.0.3",
     "nx": "15.3.0",
     "prettier": "^2.6.2",
@@ -62,12 +72,22 @@
     "vitest": "^0.25.1"
   },
   "dependencies": {
+    "@angular/animations": "~15.1.0",
+    "@angular/common": "~15.1.0",
+    "@angular/compiler": "~15.1.0",
+    "@angular/core": "~15.1.0",
+    "@angular/forms": "~15.1.0",
+    "@angular/platform-browser": "~15.1.0",
+    "@angular/platform-browser-dynamic": "~15.1.0",
+    "@angular/router": "~15.1.0",
     "core-js": "^3.6.5",
     "express": "^4.18.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-router-dom": "6.4.3",
     "regenerator-runtime": "0.13.7",
-    "tslib": "^2.3.0"
+    "rxjs": "~7.5.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.11.4"
   }
 }
