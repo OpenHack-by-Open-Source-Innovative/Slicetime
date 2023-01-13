@@ -17,3 +17,6 @@ Run the project
 ```sh
 npm start
 ```
+
+# [Contributing guide](https://github.com/99x-academy/slicetime/blob/main/README.md)
+
