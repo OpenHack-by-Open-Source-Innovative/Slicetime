@@ -25,6 +25,16 @@ The user can time track each task to achieve their daily goals and with the abil
 
 SliceTime will analyze the progress and help the user to keep up with his/her goals. This will benefit the employees in reviewing their daily performance and the areas they should improve in the time-management aspect. 
 
+### Advantages 
+
+<li>Increased productivity: By providing a clear overview of tasks and deadlines, and allowing for easy organization and prioritization of tasks, SliceTime can help users to increase their productivity and accomplish more in less time. </li>
+
+<li>Better organization: The system allows users to keep track of their tasks, set reminders, and schedule recurring tasks, which can help them stay organized and ensure that nothing falls through the cracks. </li>
+
+<li>Reduced errors: By automating certain tasks and providing clear instructions, SliceTime can help users to reduce errors and improve the accuracy of their work.  </li>
+
+<li>The amount of time it takes the employee to update several systems and the status of their tasks has been reduced drastically.</li>
+
 ### Goals 
 
 The primary goal of SliceTime is to sync up with the systems such as Jira, Trello, Toggle, ClickUp and Azure devOps, to create a single environment where the user can connect to these endpoints. 
