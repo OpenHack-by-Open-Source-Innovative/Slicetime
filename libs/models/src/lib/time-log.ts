@@ -1,5 +1,6 @@
+import { Common } from './common';
 import { TimeSpent } from './time-spent';
-export interface TimeLog {
+export interface TimeLog extends Common {
   timeLogId: string;
   estStartingTime: number;
   estEndingTime: number;
